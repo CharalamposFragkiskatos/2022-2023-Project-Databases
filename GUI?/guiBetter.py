@@ -294,7 +294,7 @@ root.bind('<Escape>', lambda e: exitP())
 
 B2.bind("<Enter>", lambda e: B2.config(bg="#bbb"))
 B2.bind("<Leave>", lambda e: B2.config( bg="white"))
-change_icon("icon.png", root)
+change_icon("AppIcon.png", root)
 
 
 combobox.bind("<<ComboboxSelected>>", combobox_changed)
